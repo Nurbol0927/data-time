@@ -1,0 +1,35 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #282828;
+    color: rgb(255, 217, 0);
+    font-family: 'Arial', sans-serif;
+}
+
+
+.clock {
+    text-align: center;
+    background: #474747;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+#time {
+    font-size: 48px;
+}
+
+#date {
+    font-size: 28px;
+}
+#time:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+#date:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
